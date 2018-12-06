@@ -12,3 +12,9 @@ Modelling electrostatic guided Ink
 particles through CIG.
 
 //Ags guide:
+
+
+//Sources:
+
+https://deepmind.com/blog/differentiable-neural-computers/
+

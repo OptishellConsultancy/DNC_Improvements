@@ -18,6 +18,10 @@ def Start(args):
         print("No arguments:, exiting " + str(count))
     else:     
         print("DNC starting Please wait...")
+        PrepareForDataFormat()
+        PrepareDisplayFeedback()
+        PrepareRunTime()
+        Execute()
         return
 #Against arguments create the data ty
 def PrepareForDataFormat():    
@@ -30,6 +34,10 @@ def PrepareDisplayFeedback():
 def PrepareRunTime():
     return
 
+#Execute given we have setup the environment correctly
+#For now just train
+def Execute():
+    return
 
 
 
